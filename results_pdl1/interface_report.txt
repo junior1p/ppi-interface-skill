@@ -1,0 +1,39 @@
+=================================================================
+PROTEIN-PROTEIN INTERFACE ANALYSIS REPORT
+=================================================================
+Input: data//4ZQK.pdb (pdb_download)
+Chains: A / B
+
+--- Interface Metrics ---
+  Total BSA:              1823.7 Å²
+  Contact pairs:          17
+  H-bonds (dist<3.5Å):   6
+  Salt bridges (dist<4.5Å): 2
+  Shape complementarity:  0.666  [>0.65=good, <0.50=poor]
+  Hotspots (chain A):  12
+  Hotspots (chain B):  10
+
+--- Top Hotspot Residues ---
+  B134ILE        BSA=117.0 Å²  score=175.4
+  A56TYR         BSA=51.5 Å²  score=128.7
+  A125ARG        BSA=58.5 Å²  score=117.1
+  B128LEU        BSA=77.6 Å²  score=116.3
+  A113ARG        BSA=56.8 Å²  score=113.6
+  B78LYS         BSA=76.7 Å²  score=99.6
+  B75GLN         BSA=98.6 Å²  score=98.6
+  A124LYS        BSA=62.7 Å²  score=81.6
+  A115MET        BSA=49.0 Å²  score=73.5
+  A86ARG         BSA=33.7 Å²  score=67.4
+  B84GLU         BSA=54.3 Å²  score=65.2
+  B126ILE        BSA=40.6 Å²  score=60.9
+  A26ASP         BSA=47.0 Å²  score=56.4
+  A54ILE         BSA=36.7 Å²  score=55.1
+  A66GLN         BSA=51.5 Å²  score=51.5
+
+--- Output Files ---
+  /root/ppi_interface/results_pdl1/interface_residues.csv
+  /root/ppi_interface/results_pdl1/hotspots.json
+  /root/ppi_interface/results_pdl1/interface_bsa.png
+  /root/ppi_interface/results_pdl1/contact_map.png
+  /root/ppi_interface/results_pdl1/composition_radar.png
+=================================================================
